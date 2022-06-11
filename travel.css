@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    border-style: none;
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 {
+    font-size: 2.6rem;
+}
+h2 {
+    font-size: 2.0rem;
+}
+h3 {
+    font-size: 1.5rem;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+button {
+    padding: 1rem 4rem;
+    background: rgb(12, 109, 12);
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    animation: cloudanimation 2s infinite;
+}
+button:hover {
+    background: rosybrown ;
+
+}
+.main-head {
+    background: gray;
+
+}
+nav {
+    min-height: 10vh;
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 2rem;
+    align-items: center;
+    position: relative;
+}
+nav ul {
+    display: flex;
+    flex: 1 1 40rem;
+     justify-content: space-around;
+    align-items: center;
+     list-style: none;
+     flex-wrap: wrap;
+}
+#logo {
+    
+    flex: 1 1 40rem;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.hero {
+    min-height: 130vh;
+    background-image: url(//);
+    background-repeat: no-repeat;
+
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+     
+}
+.hero h3 {
+    padding: 2rem;
+}
+.locations {
+    min-height: 100vh;
+    background: url(https://images.unsplash.com/photo-1605637274873-3decd35518ec?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=773&q=80);
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      align-items: center;
+      background-clip: text;
+      -webkit-text-fillcolor: transparent;
+}
+.locations-head{
+    width: 90%;
+    margin: auto;
+}
+.locations-head h2 {
+    
+    padding: 1rem 0rem;
+    text-decoration: underline;
+}
+.locations-head h3 {
+   text-shadow: white;
+    padding: 2rem 0rem;
+}
+
+@keyframes cloudanimation {
+    0% {
+        background: royalblue;
+    }
+    25% {
+        background: grey;
+    }
+    100% {
+        background: crimson;
+    }
+}
+.benifits-head {
+    background: #343c44;
+    padding: 3rem;
+    min-height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    text-align: center;
+}
+.benifits-head h3 {
+    padding: 1rem;
+}
+.cards {
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    min-height: 70vh;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.card {
+    background: whitesmoke;
+    flex: 1 1 25rem;
+    min-height: 40vh;
+    margin: 2rem 5rem;
+    box-shadow: 0px 10px 10px black;
+
+}
+.card img { 
+    max-width: 15%;
+    margin: 2rem;
+
+}
+.card h4 {
+    padding: 2rem;
+}
+.card p {
+    padding: 2rem;
+}
+.card-icon {
+    background: rgb(216, 112, 121);
+}
+.contact 
+{
+    min-height: 100vh;
+    background: linear-gradient(red), transparent url();
+    background-size:cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-wrapper {
+    background: lightgreen;
+    width: 60%;
+    height: 40%;
+    color: azure;
+    border-radius: 20px;
+}
+.form-head {
+    text-align: center;
+    padding: 2rem;
+}
+.name-form, .email-form {
+    padding: 2rem;
+    text-align: center;
+}
+.form-wrapper label {
+    margin: 0rem 2rem;
+}
+.form-wrapper button {
+    width: 100%;
+    padding: 2rem;
+    margin-top: 6rem;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.form-wrapper input {
+padding: 1rem 3rem;
+}
